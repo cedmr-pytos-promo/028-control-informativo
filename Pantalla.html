@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Informativo - Pantalla</title>
+    <style>
+        :root { --primary: #1a73e8; --bg: #f8f9fa; --text: #333; --card: #fff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
+        nav { background: #fff; padding: 1rem 2rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; }
+        nav h2 { margin: 0; color: var(--primary); font-size: 1.3rem; }
+        nav ul { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0; }
+        nav a { text-decoration: none; color: #555; font-weight: 600; }
+        nav a.active, nav a:hover { color: var(--primary); }
+        header { background: #137333; color: white; text-align: center; padding: 2.5rem 1rem; }
+        main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        section { background: var(--card); border-radius: 8px; padding: 2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        h3 { color: #137333; margin-top: 0; }
+        .tv-screen { background: #202124; color: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .tv-screen h4 { color: #8ab4f8; margin-top: 0; border-bottom: 1px solid #5f6368; padding-bottom: 0.5rem; }
+        ul { padding-left: 1.5rem; }
+        li { margin-bottom: 0.8rem; }
+        footer { text-align: center; padding: 1.5rem; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Control Informativo</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="laboratorio.html">Control de Laboratorio</a></li>
+            <li><a href="pantalla.html" class="active">Pantalla Informativa</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Pantalla Informativa</h1>
+        <p>Canal de difusión visual institucional</p>
+    </header>
+    <main>
+        <section>
+            <h3>Vista General de la TV</h3>
+            <p>Una TV que muestra automáticamente horarios, avisos y eventos para la comunidad.</p>
+            
+            <div class="tv-screen">
+                <h4>🔴 TRANSMISIÓN ACTIVA EN MONITORES</h4>
+                <ul>
+                    <li><strong>Horarios:</strong> Turno Mañana (08:00 - 12:00) | Turno Tarde (13:30 - 17:30).</li>
+                    <li><strong>Aviso:</strong> Actualización semanal del registro de laboratorios disponible en el sistema.</li>
+                    <li><strong>Evento:</strong> Próxima reunión del grupo estudiantil este jueves a las 15:00 hrs.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Control Informativo</p>
+    </footer>
+</body>
+</html>

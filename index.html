@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Informativo - Inicio</title>
+    <style>
+        :root { --primary: #1a73e8; --bg: #f8f9fa; --text: #333; --card: #fff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
+        nav { background: #fff; padding: 1rem 2rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; }
+        nav h2 { margin: 0; color: var(--primary); font-size: 1.3rem; }
+        nav ul { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0; }
+        nav a { text-decoration: none; color: #555; font-weight: 600; transition: color 0.2s; }
+        nav a.active, nav a:hover { color: var(--primary); }
+        header { background: var(--primary); color: white; text-align: center; padding: 3rem 1rem; }
+        header h1 { margin: 0; font-size: 2.2rem; }
+        main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        section { background: var(--card); border-radius: 8px; padding: 2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid var(--primary); }
+        h3 { color: var(--primary); margin-top: 0; font-size: 1.4rem; }
+        ul { padding-left: 1.5rem; }
+        footer { text-align: center; padding: 1.5rem; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Control Informativo</h2>
+        <ul>
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="laboratorio.html">Control de Laboratorio</a></li>
+            <li><a href="pantalla.html">Pantalla Informativa</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Datos generales del proyecto</h1>
+        <p>Sistema integral para la gestión y difusión institucional</p>
+    </header>
+    <main>
+        <section>
+            <h3>Responsables</h3>
+            <ul>
+                <li>Delia Beatriz Villamayor Flores</li>
+                <li>Dora Lisset Abdala Santa Cruz</li>
+                <li>Carlos Mathias Valdes Avalos</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Sobre el proyecto</h3>
+            <p><strong>Control del laboratorio:</strong> registrar qué computadora está ocupada, disponible o necesita reparación.</p>
+            <p><strong>Pantalla informativa:</strong> una TV que muestra automáticamente horarios, avisos y eventos.</p>
+        </section>
+        <section>
+            <h3>¿Por qué es importante?</h3>
+            <p>Para que el grupo estudiantil pueda informar cualquier cosa que sea necesario para los estudiantes y docentes.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Control Informativo</p>
+    </footer>
+</body>
+</html>
